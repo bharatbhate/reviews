@@ -78,7 +78,6 @@ Body:
             "title":"string",
 	        "rating":integer,
 	        "summary":"string",
-	        "ip_address":"string",
 	        "submission_date":"YYYY-MM-DD",
 	        "company":"String"
         }'
@@ -148,8 +147,8 @@ To run test cases with coverage report:
 
 1. To use django admin create superuser
 
-    python manage.py createsuperuser
+        python manage.py createsuperuser
     
 2. go to the url and logon using superuser
 
-    127.0.0.1/admin
+        127.0.0.1/admin
