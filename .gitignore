@@ -8,4 +8,4 @@
 /static
 /media
 **/migrations/*
-/review/tests.py
+db.sqlite3

@@ -14,6 +14,7 @@ class UserSerializer(serializers.ModelSerializer):
 class ReviewSerializer(serializers.ModelSerializer):
     user = UserSerializer(read_only=True)
     #company = CompanySerializer(read_only=True)
+
     class Meta:
         model = Review
         fields = '__all__'
