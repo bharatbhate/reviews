@@ -1,0 +1,11 @@
+*.pyc
+*.pyo
+*.db
+*.xml
+.DS_Store
+.coverage
+.idea
+/static
+/media
+**/migrations/*
+/review/tests.py
