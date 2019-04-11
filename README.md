@@ -140,5 +140,7 @@ To run test cases:
     python manage.py test
     
 To run test cases with coverage report:
-
+    
+    coverage run ./manage.py test &&
+    coverage report
 
