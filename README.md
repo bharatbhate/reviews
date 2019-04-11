@@ -144,3 +144,12 @@ To run test cases with coverage report:
     coverage run ./manage.py test &&
     coverage report
 
+**Admin Panel**
+
+1. To use django admin create superuser
+
+    python manage.py createsuperuser
+    
+2. go to the url and logon using superuser
+
+    127.0.0.1/admin
